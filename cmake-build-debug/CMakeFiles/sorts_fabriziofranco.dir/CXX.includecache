@@ -22,9 +22,37 @@ algorithm
 sort.h
 /home/fabrizio/Desktop/ADS/sorts-fabriziofranco/sort.h
 
+/home/fabrizio/Desktop/ADS/sorts-fabriziofranco/main.cpp
+iostream
+-
+assert.h
+-
+string
+-
+mocker.h
+/home/fabrizio/Desktop/ADS/sorts-fabriziofranco/mocker.h
+tester.h
+/home/fabrizio/Desktop/ADS/sorts-fabriziofranco/tester.h
+bubble.h
+/home/fabrizio/Desktop/ADS/sorts-fabriziofranco/bubble.h
+select.h
+/home/fabrizio/Desktop/ADS/sorts-fabriziofranco/select.h
+insert.h
+/home/fabrizio/Desktop/ADS/sorts-fabriziofranco/insert.h
+shell.h
+/home/fabrizio/Desktop/ADS/sorts-fabriziofranco/shell.h
+quick.h
+/home/fabrizio/Desktop/ADS/sorts-fabriziofranco/quick.h
+merge.h
+/home/fabrizio/Desktop/ADS/sorts-fabriziofranco/merge.h
+
 /home/fabrizio/Desktop/ADS/sorts-fabriziofranco/merge.h
 sort.h
 /home/fabrizio/Desktop/ADS/sorts-fabriziofranco/sort.h
+
+/home/fabrizio/Desktop/ADS/sorts-fabriziofranco/mocker.h
+random
+-
 
 /home/fabrizio/Desktop/ADS/sorts-fabriziofranco/quick.h
 sort.h

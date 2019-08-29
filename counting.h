@@ -16,7 +16,7 @@ class CountingSort : public Sort {
                 max=elements[i];}
 
         int contadores[max];
-        int limpios[size];
+        int *limpios=new int[size];
 
 
         for (size_t j = 0; j<max; ++j){
@@ -41,7 +41,7 @@ class CountingSort : public Sort {
         for (size_t m = 0; m < size; ++m) {
             elements[m]=limpios[m];
         }
-
+        delete[](limpios);
     }
         inline string name() { return "CountingSort"; }
 };
