@@ -4,7 +4,7 @@
 #include "sort.h"
 #include <algorithm>
 
-class CountingSort : public Sort {       
+class CountingSort : public Sort {
     public:
         CountingSort(int *elements, size_t size) : Sort(elements, size) {}
 

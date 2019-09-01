@@ -11,14 +11,13 @@ class InsertSort : public Sort {
         // TODO
 
         for(int numero_de_elementos_ordenados=1;numero_de_elementos_ordenados<int(size);numero_de_elementos_ordenados++){
-            size_t elemento_adyacente=elements[numero_de_elementos_ordenados];
+            int elemento_adyacente=elements[numero_de_elementos_ordenados];
             int iterador=numero_de_elementos_ordenados-1;
             while(elemento_adyacente<elements[iterador] && iterador>=0){
                 elements[iterador+1]=elements[iterador];
                 iterador--;
             }
             elements[iterador+1]=elemento_adyacente;
-
         }
 
     }
