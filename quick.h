@@ -38,7 +38,7 @@ class QuickSort : public Sort {
     }
 
     void execute(){
-        quicksort(0,size-1);
+        quicksort(0,int(size)-1);
     }
 
         inline string name() { return "QuickSort"; }
